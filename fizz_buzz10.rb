@@ -161,7 +161,7 @@ puts fizz_buzz(input)
 
 
 def Fizz_buzz(number)
-  if number % 15 == 0
+  if number 5 15 == 0
 "FizzBuzz"
   elsif number % 3 == 0
     "Fizz"
@@ -174,19 +174,4 @@ end
 puts "数字を入力して下さい"
 input = gets.to_i #文字列を整数型へ変換
 puts "結果"
-puts fizz_buzz(input)
-
-def Fizz_buzz(number)
-  if number % 15 == 0
-    "FizzBuzz"
-  elsif number % 3 == 0
-    "Fizz"
-  elsif number % 5 == 0
-    "Buzz"
-    number.to_s
-  end
-end
-
-puts "数字を入力して下さい"
-input = get.to_i #文字列型を整数型へ変換
 puts fizz_buzz(input)
